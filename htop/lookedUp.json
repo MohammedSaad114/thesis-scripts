@@ -1,0 +1,366 @@
+{
+  "stats": {
+    "num_functions": 120,
+    "num_resolved": 45,
+    "num_unresolved": 75,
+    "num_impl_files": 29,
+    "num_impl_files_with_unresolved": 24
+  },
+  "resolved": {
+    "CRT.c": [
+      {
+        "function": "CRT_init",
+        "decl_file": "CRT.h"
+      }
+    ],
+    "CommandLine.c": [
+      {
+        "function": "CommandLine_run",
+        "decl_file": "CommandLine.h"
+      }
+    ],
+    "DynamicColumn.c": [
+      {
+        "function": "DynamicColumn_search",
+        "decl_file": "DynamicColumn.h"
+      },
+      {
+        "function": "DynamicColumns_delete",
+        "decl_file": "DynamicColumn.h"
+      },
+      {
+        "function": "DynamicColumns_new",
+        "decl_file": "DynamicColumn.h"
+      }
+    ],
+    "DynamicMeter.c": [
+      {
+        "function": "DynamicMeter_search",
+        "decl_file": "DynamicMeter.h"
+      },
+      {
+        "function": "DynamicMeters_delete",
+        "decl_file": "DynamicMeter.h"
+      }
+    ],
+    "DynamicScreen.c": [
+      {
+        "function": "DynamicScreens_delete",
+        "decl_file": "DynamicScreen.h"
+      }
+    ],
+    "FunctionBar.c": [
+      {
+        "function": "FunctionBar_delete",
+        "decl_file": "FunctionBar.h"
+      },
+      {
+        "function": "FunctionBar_new",
+        "decl_file": "FunctionBar.h"
+      }
+    ],
+    "Hashtable.c": [
+      {
+        "function": "Hashtable_new",
+        "decl_file": "Hashtable.h"
+      }
+    ],
+    "Header.c": [
+      {
+        "function": "Header_calculateHeight",
+        "decl_file": "Header.h"
+      },
+      {
+        "function": "Header_delete",
+        "decl_file": "Header.h"
+      },
+      {
+        "function": "Header_new",
+        "decl_file": "Header.h"
+      },
+      {
+        "function": "Header_populateFromSettings",
+        "decl_file": "Header.h"
+      }
+    ],
+    "IncSet.c": [
+      {
+        "function": "IncSet_new",
+        "decl_file": "IncSet.h"
+      }
+    ],
+    "ListItem.c": [
+      {
+        "function": "ListItem_new",
+        "decl_file": "ListItem.h"
+      }
+    ],
+    "Machine.c": [
+      {
+        "function": "Machine_done",
+        "decl_file": "Machine.h"
+      },
+      {
+        "function": "Machine_populateTablesFromSettings",
+        "decl_file": "Machine.h"
+      },
+      {
+        "function": "Machine_setTablesPanel",
+        "decl_file": "Machine.h"
+      }
+    ],
+    "MainPanel.c": [
+      {
+        "function": "MainPanel_new",
+        "decl_file": "MainPanel.h"
+      },
+      {
+        "function": "MainPanel_setState",
+        "decl_file": "MainPanel.h"
+      }
+    ],
+    "Meter.c": [
+      {
+        "function": "Meter_new",
+        "decl_file": "Meter.h"
+      }
+    ],
+    "Object.c": [
+      {
+        "function": "Object_isA",
+        "decl_file": "Object.h"
+      }
+    ],
+    "Panel.c": [
+      {
+        "function": "Panel_add",
+        "decl_file": "Panel.h"
+      },
+      {
+        "function": "Panel_getSelected",
+        "decl_file": "Panel.h"
+      }
+    ],
+    "Row.c": [
+      {
+        "function": "Row_setPidColumnWidth",
+        "decl_file": "Row.h"
+      }
+    ],
+    "ScreenManager.c": [
+      {
+        "function": "ScreenManager_delete",
+        "decl_file": "ScreenManager.h"
+      },
+      {
+        "function": "ScreenManager_new",
+        "decl_file": "ScreenManager.h"
+      },
+      {
+        "function": "ScreenManager_resize",
+        "decl_file": "ScreenManager.h"
+      }
+    ],
+    "Settings.c": [
+      {
+        "function": "ScreenSettings_delete",
+        "decl_file": "Settings.h"
+      },
+      {
+        "function": "Settings_delete",
+        "decl_file": "Settings.h"
+      },
+      {
+        "function": "Settings_new",
+        "decl_file": "Settings.h"
+      }
+    ],
+    "Table.c": [
+      {
+        "function": "Table_collapseAllBranches",
+        "decl_file": "Table.h"
+      }
+    ],
+    "UsersTable.c": [
+      {
+        "function": "UsersTable_delete",
+        "decl_file": "UsersTable.h"
+      },
+      {
+        "function": "UsersTable_new",
+        "decl_file": "UsersTable.h"
+      }
+    ],
+    "Vector.c": [
+      {
+        "function": "Vector_delete",
+        "decl_file": "Vector.h"
+      },
+      {
+        "function": "Vector_new",
+        "decl_file": "Vector.h"
+      }
+    ],
+    "XUtils.c": [
+      {
+        "function": "full_write",
+        "decl_file": "XUtils.h"
+      },
+      {
+        "function": "xMallocArray",
+        "decl_file": "XUtils.h"
+      },
+      {
+        "function": "xReadfileat",
+        "decl_file": "XUtils.h"
+      }
+    ],
+    "linux/LinuxMachine.c": [
+      {
+        "function": "Machine_delete",
+        "decl_file": "Machine.h"
+      },
+      {
+        "function": "Machine_new",
+        "decl_file": "Machine.h"
+      }
+    ],
+    "linux/LinuxProcessTable.c": [
+      {
+        "function": "ProcessTable_new",
+        "decl_file": "ProcessTable.h"
+      }
+    ],
+    "linux/Platform.c": [
+      {
+        "function": "Platform_getLongOption",
+        "decl_file": "linux/Platform.h"
+      }
+    ]
+  },
+  "unresolved": {
+    "Action.c": [
+      "addUserToVector"
+    ],
+    "CommandLine.c": [
+      "CommandLine_delay",
+      "IncSet_filter.229",
+      "Platform_gettime_realtime",
+      "parseArguments",
+      "setCommFilter"
+    ],
+    "DynamicColumn.c": [
+      "Platform_dynamicColumnsDone"
+    ],
+    "DynamicMeter.c": [
+      "Platform_dynamicMetersDone"
+    ],
+    "DynamicScreen.c": [
+      "Platform_dynamicScreensDone"
+    ],
+    "FunctionBar.c": [
+      "FunctionBar_setLabel",
+      "FunctionBar_synthesizeEvent"
+    ],
+    "Hashtable.c": [
+      "Hashtable_foreach",
+      "Hashtable_setSize"
+    ],
+    "Header.c": [
+      "Header_addMeterByName",
+      "Header_setLayout",
+      "calcColumnWidthCount"
+    ],
+    "IncSet.c": [
+      "IncMode_initFilter",
+      "IncMode_initSearch",
+      "IncSet_setFilter"
+    ],
+    "ListItem.c": [
+      "ListItem_init"
+    ],
+    "Machine.c": [
+      "Machine_addTable",
+      "Machine_init",
+      "Platform_gettime_realtime.698"
+    ],
+    "MainPanel.c": [
+      "MainPanel_updateLabels"
+    ],
+    "Meter.c": [
+      "Meter_setMode"
+    ],
+    "Panel.c": [
+      "Panel_draw",
+      "Panel_init",
+      "Panel_move",
+      "Panel_onKey",
+      "Panel_resize",
+      "Panel_set",
+      "Vector_get.948"
+    ],
+    "ProcessTable.c": [
+      "ProcessTable_init"
+    ],
+    "ScreenManager.c": [
+      "ScreenManager_add",
+      "ScreenManager_drawPanels",
+      "ScreenManager_drawScreenTabs",
+      "ScreenManager_insert",
+      "ScreenManager_run",
+      "State_hideFunctionBar.1216",
+      "Vector_get.1209",
+      "Vector_size.1208",
+      "checkRecalculation",
+      "drawTab",
+      "header_height"
+    ],
+    "ScreenTabsPanel.c": [
+      "ScreenTabListItem_new",
+      "addDynamicScreen"
+    ],
+    "Settings.c": [
+      "HeaderLayout_fromName",
+      "Platform_addDynamicScreen",
+      "ScreenSettings_readFields",
+      "Settings_defaultMeters",
+      "Settings_defaultScreens",
+      "Settings_deleteColumns",
+      "Settings_deleteScreens",
+      "Settings_initScreenSettings",
+      "Settings_newScreen",
+      "Settings_read",
+      "Settings_readMeterModes",
+      "Settings_readMeters",
+      "Settings_splitLineToIDs",
+      "Settings_write",
+      "String_eq.1367",
+      "String_startsWith.1391",
+      "toFieldIndex",
+      "writeMeterModes",
+      "writeMeters"
+    ],
+    "Table.c": [
+      "Table_init",
+      "Table_setPanel"
+    ],
+    "Vector.c": [
+      "Vector_insert",
+      "Vector_take"
+    ],
+    "XUtils.c": [
+      "String_safeStrncpy"
+    ],
+    "htop.c": [
+      "main"
+    ],
+    "linux/LinuxMachine.c": [
+      "LinuxMachine_scanZramInfo",
+      "LinuxMachine_updateCPUcount",
+      "scanCPUFrequencyFromSysCPUFreq"
+    ],
+    "linux/LinuxProcessTable.c": [
+      "LinuxProcessTable_initTtyDrivers"
+    ]
+  }
+}

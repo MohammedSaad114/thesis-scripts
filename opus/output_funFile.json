@@ -1,0 +1,222 @@
+{
+  "stats": {
+    "num_functions": 110,
+    "num_files": 35
+  },
+  "incoming_files": [
+    "celt/celt.c",
+    "celt/celt_decoder.c",
+    "celt/celt_encoder.c",
+    "celt/entdec.c",
+    "celt/modes.c",
+    "celt/vq.c",
+    "celt/x86/x86cpu.c",
+    "silk/LPC_analysis_filter.c",
+    "silk/NLSF_encode.c",
+    "silk/VAD.c",
+    "silk/ana_filt_bank_1.c",
+    "silk/dec_API.c",
+    "silk/enc_API.c",
+    "silk/float/find_LPC_FLP.c",
+    "silk/float/pitch_analysis_core_FLP.c",
+    "silk/float/wrappers_FLP.c",
+    "silk/init_decoder.c",
+    "silk/process_NLSFs.c",
+    "silk/x86/NSQ_del_dec_avx2.c",
+    "silk/x86/NSQ_sse4_1.c",
+    "silk/x86/VAD_sse4_1.c",
+    "src/analysis.c",
+    "src/extensions.c",
+    "src/mapping_matrix.c",
+    "src/opus.c",
+    "src/opus_decoder.c",
+    "src/opus_encoder.c",
+    "src/opus_multistream.c",
+    "src/opus_multistream_decoder.c",
+    "src/opus_multistream_encoder.c",
+    "src/opus_projection_decoder.c",
+    "src/opus_projection_encoder.c"
+  ],
+  "file_to_defined_functions": {
+    "celt/celt.c": [
+      "resampling_factor"
+    ],
+    "celt/celt_decoder.c": [
+      "celt_decode_with_ec_dred",
+      "celt_decoder_get_size",
+      "celt_decoder_init",
+      "opus_custom_decoder_init"
+    ],
+    "celt/celt_encoder.c": [
+      "celt_encoder_init"
+    ],
+    "celt/cwrs.c": [
+      "cwrsi",
+      "decode_pulses"
+    ],
+    "celt/laplace.c": [
+      "ec_laplace_decode_p0"
+    ],
+    "celt/quant_bands.c": [
+      "unquant_coarse_energy"
+    ],
+    "celt/x86/vq_sse2.c": [
+      "op_pvq_search_sse2"
+    ],
+    "silk/NLSF_VQ.c": [
+      "silk_NLSF_VQ"
+    ],
+    "silk/NLSF_VQ_weights_laroia.c": [
+      "silk_NLSF_VQ_weights_laroia"
+    ],
+    "silk/NSQ.c": [
+      "silk_NSQ_c",
+      "silk_noise_shape_quantizer"
+    ],
+    "silk/NSQ_del_dec.c": [
+      "memmove.inline.292",
+      "memset.inline.287",
+      "silk_NSQ_del_dec_c",
+      "silk_min_int.289",
+      "silk_noise_shape_quantizer_del_dec",
+      "silk_nsq_del_dec_scale_states"
+    ],
+    "silk/VAD.c": [
+      "silk_VAD_GetNoiseLevels",
+      "silk_VAD_GetSA_Q8_c"
+    ],
+    "silk/ana_filt_bank_1.c": [
+      "silk_ana_filt_bank_1"
+    ],
+    "silk/code_signs.c": [
+      "silk_decode_signs"
+    ],
+    "silk/dec_API.c": [
+      "silk_Decode",
+      "silk_Get_Decoder_Size"
+    ],
+    "silk/decode_indices.c": [
+      "silk_decode_indices"
+    ],
+    "silk/decode_pulses.c": [
+      "silk_decode_pulses"
+    ],
+    "silk/enc_API.c": [
+      "silk_Get_Encoder_Size"
+    ],
+    "silk/float/burg_modified_FLP.c": [
+      "silk_burg_modified_FLP"
+    ],
+    "silk/process_NLSFs.c": [
+      "memcpy.inline.432",
+      "silk_process_NLSFs"
+    ],
+    "silk/resampler_down2.c": [
+      "silk_resampler_down2"
+    ],
+    "silk/resampler_down2_3.c": [
+      "silk_resampler_down2_3"
+    ],
+    "silk/shell_coder.c": [
+      "decode_split"
+    ],
+    "silk/stereo_decode_pred.c": [
+      "silk_stereo_decode_mid_only",
+      "silk_stereo_decode_pred"
+    ],
+    "silk/x86/VAD_sse4_1.c": [
+      "silk_VAD_GetSA_Q8_sse4_1"
+    ],
+    "src/analysis.c": [
+      "run_analysis"
+    ],
+    "src/mapping_matrix.c": [
+      "mapping_matrix_get_size",
+      "mapping_matrix_init"
+    ],
+    "src/opus.c": [
+      "opus_packet_parse"
+    ],
+    "src/opus_decoder.c": [
+      "opus_alloc",
+      "opus_decode",
+      "opus_decode24",
+      "opus_decode_native",
+      "opus_decoder_create",
+      "opus_decoder_ctl",
+      "opus_decoder_get_nb_samples",
+      "opus_decoder_get_size",
+      "opus_decoder_init",
+      "opus_dred_decoder_init",
+      "opus_packet_get_nb_samples",
+      "opus_packet_has_lbrr"
+    ],
+    "src/opus_encoder.c": [
+      "downmix_float",
+      "downmix_int",
+      "downmix_int24",
+      "frame_size_select",
+      "opus_alloc.855",
+      "opus_encode_frame_native",
+      "opus_encode_native",
+      "opus_encoder_create",
+      "opus_encoder_get_size",
+      "opus_encoder_init"
+    ],
+    "src/opus_multistream_decoder.c": [
+      "opus_alloc.895",
+      "opus_multistream_decode_native",
+      "opus_multistream_decoder_create",
+      "opus_multistream_decoder_ctl",
+      "opus_multistream_decoder_ctl_va_list",
+      "opus_multistream_decoder_get_size",
+      "opus_multistream_decoder_init",
+      "opus_multistream_packet_validate",
+      "validate_ms_decoder"
+    ],
+    "src/opus_multistream_encoder.c": [
+      "ambisonics_rate_allocation",
+      "celt_log2.888",
+      "channel_pos",
+      "memset.inline.887",
+      "ms_get_preemph_mem",
+      "ms_get_window_mem",
+      "opus_multistream_encode_native",
+      "opus_multistream_encoder_create",
+      "opus_multistream_encoder_ctl",
+      "opus_multistream_encoder_ctl_va_list",
+      "opus_multistream_encoder_get_size",
+      "opus_multistream_encoder_init",
+      "opus_multistream_encoder_init_impl",
+      "opus_multistream_surround_encoder_create",
+      "rate_allocation",
+      "surround_analysis",
+      "surround_rate_allocation",
+      "validate_ambisonics",
+      "validate_encoder_layout"
+    ],
+    "src/opus_projection_decoder.c": [
+      "opus_alloc.925",
+      "opus_projection_decoder_create",
+      "opus_projection_decoder_ctl",
+      "opus_projection_decoder_get_size",
+      "opus_projection_decoder_init"
+    ],
+    "src/opus_projection_encoder.c": [
+      "get_order_plus_one_from_channels",
+      "get_streams_from_channels",
+      "opus_alloc.922",
+      "opus_projection_ambisonics_encoder_create",
+      "opus_projection_ambisonics_encoder_get_size",
+      "opus_projection_ambisonics_encoder_init",
+      "opus_projection_encoder_ctl"
+    ],
+    "src/repacketizer.c": [
+      "opus_multistream_packet_pad",
+      "opus_multistream_packet_unpad",
+      "opus_packet_unpad",
+      "opus_repacketizer_out",
+      "opus_repacketizer_out_range"
+    ]
+  }
+}

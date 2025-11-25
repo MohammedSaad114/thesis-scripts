@@ -1,0 +1,218 @@
+{
+  "stats": {
+    "num_functions": 120,
+    "num_files": 29
+  },
+  "incoming_files": [
+    "Action.c",
+    "CRT.c",
+    "CommandLine.c",
+    "DynamicColumn.c",
+    "DynamicMeter.c",
+    "DynamicScreen.c",
+    "FunctionBar.c",
+    "Hashtable.c",
+    "Header.c",
+    "IncSet.c",
+    "ListItem.c",
+    "Machine.c",
+    "MainPanel.c",
+    "Meter.c",
+    "MetersPanel.c",
+    "Object.c",
+    "Panel.c",
+    "ProcessTable.c",
+    "RichString.c",
+    "ScreenManager.c",
+    "ScreenTabsPanel.c",
+    "Settings.c",
+    "Table.c",
+    "UsersTable.c",
+    "Vector.c",
+    "XUtils.c",
+    "htop.c",
+    "linux/LinuxMachine.c",
+    "linux/LinuxProcessTable.c",
+    "linux/Platform.c"
+  ],
+  "file_to_defined_functions": {
+    "Action.c": [
+      "addUserToVector"
+    ],
+    "CRT.c": [
+      "CRT_init"
+    ],
+    "CommandLine.c": [
+      "CommandLine_delay",
+      "CommandLine_run",
+      "IncSet_filter.229",
+      "Platform_gettime_realtime",
+      "parseArguments",
+      "setCommFilter"
+    ],
+    "DynamicColumn.c": [
+      "DynamicColumn_search",
+      "DynamicColumns_delete",
+      "DynamicColumns_new",
+      "Platform_dynamicColumnsDone"
+    ],
+    "DynamicMeter.c": [
+      "DynamicMeter_search",
+      "DynamicMeters_delete",
+      "Platform_dynamicMetersDone"
+    ],
+    "DynamicScreen.c": [
+      "DynamicScreens_delete",
+      "Platform_dynamicScreensDone"
+    ],
+    "FunctionBar.c": [
+      "FunctionBar_delete",
+      "FunctionBar_new",
+      "FunctionBar_setLabel",
+      "FunctionBar_synthesizeEvent"
+    ],
+    "Hashtable.c": [
+      "Hashtable_foreach",
+      "Hashtable_new",
+      "Hashtable_setSize"
+    ],
+    "Header.c": [
+      "Header_addMeterByName",
+      "Header_calculateHeight",
+      "Header_delete",
+      "Header_new",
+      "Header_populateFromSettings",
+      "Header_setLayout",
+      "calcColumnWidthCount"
+    ],
+    "IncSet.c": [
+      "IncMode_initFilter",
+      "IncMode_initSearch",
+      "IncSet_new",
+      "IncSet_setFilter"
+    ],
+    "ListItem.c": [
+      "ListItem_init",
+      "ListItem_new"
+    ],
+    "Machine.c": [
+      "Machine_addTable",
+      "Machine_done",
+      "Machine_init",
+      "Machine_populateTablesFromSettings",
+      "Machine_setTablesPanel",
+      "Platform_gettime_realtime.698"
+    ],
+    "MainPanel.c": [
+      "MainPanel_new",
+      "MainPanel_setState",
+      "MainPanel_updateLabels"
+    ],
+    "Meter.c": [
+      "Meter_new",
+      "Meter_setMode"
+    ],
+    "Object.c": [
+      "Object_isA"
+    ],
+    "Panel.c": [
+      "Panel_add",
+      "Panel_draw",
+      "Panel_getSelected",
+      "Panel_init",
+      "Panel_move",
+      "Panel_onKey",
+      "Panel_resize",
+      "Panel_set",
+      "Vector_get.948"
+    ],
+    "ProcessTable.c": [
+      "ProcessTable_init"
+    ],
+    "Row.c": [
+      "Row_setPidColumnWidth"
+    ],
+    "ScreenManager.c": [
+      "ScreenManager_add",
+      "ScreenManager_delete",
+      "ScreenManager_drawPanels",
+      "ScreenManager_drawScreenTabs",
+      "ScreenManager_insert",
+      "ScreenManager_new",
+      "ScreenManager_resize",
+      "ScreenManager_run",
+      "State_hideFunctionBar.1216",
+      "Vector_get.1209",
+      "Vector_size.1208",
+      "checkRecalculation",
+      "drawTab",
+      "header_height"
+    ],
+    "ScreenTabsPanel.c": [
+      "ScreenTabListItem_new",
+      "addDynamicScreen"
+    ],
+    "Settings.c": [
+      "HeaderLayout_fromName",
+      "Platform_addDynamicScreen",
+      "ScreenSettings_delete",
+      "ScreenSettings_readFields",
+      "Settings_defaultMeters",
+      "Settings_defaultScreens",
+      "Settings_delete",
+      "Settings_deleteColumns",
+      "Settings_deleteScreens",
+      "Settings_initScreenSettings",
+      "Settings_new",
+      "Settings_newScreen",
+      "Settings_read",
+      "Settings_readMeterModes",
+      "Settings_readMeters",
+      "Settings_splitLineToIDs",
+      "Settings_write",
+      "String_eq.1367",
+      "String_startsWith.1391",
+      "toFieldIndex",
+      "writeMeterModes",
+      "writeMeters"
+    ],
+    "Table.c": [
+      "Table_collapseAllBranches",
+      "Table_init",
+      "Table_setPanel"
+    ],
+    "UsersTable.c": [
+      "UsersTable_delete",
+      "UsersTable_new"
+    ],
+    "Vector.c": [
+      "Vector_delete",
+      "Vector_insert",
+      "Vector_new",
+      "Vector_take"
+    ],
+    "XUtils.c": [
+      "String_safeStrncpy",
+      "full_write",
+      "xMallocArray",
+      "xReadfileat"
+    ],
+    "htop.c": [
+      "main"
+    ],
+    "linux/LinuxMachine.c": [
+      "LinuxMachine_scanZramInfo",
+      "LinuxMachine_updateCPUcount",
+      "Machine_delete",
+      "Machine_new",
+      "scanCPUFrequencyFromSysCPUFreq"
+    ],
+    "linux/LinuxProcessTable.c": [
+      "LinuxProcessTable_initTtyDrivers",
+      "ProcessTable_new"
+    ],
+    "linux/Platform.c": [
+      "Platform_getLongOption"
+    ]
+  }
+}

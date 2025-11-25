@@ -1,0 +1,183 @@
+{
+  "stats": {
+    "num_functions": 54,
+    "num_resolved": 22,
+    "num_unresolved": 32,
+    "num_impl_files": 10,
+    "num_impl_files_with_unresolved": 5
+  },
+  "resolved": {
+    "args.c": [
+      {
+        "function": "arg_match",
+        "impl_file": "args.c",
+        "decl_file": "args.h"
+      },
+      {
+        "function": "arg_parse_uint",
+        "impl_file": "args.c",
+        "decl_file": "args.h"
+      },
+      {
+        "function": "argv_dup",
+        "impl_file": "args.c",
+        "decl_file": "args.h"
+      }
+    ],
+    "ivfdec.c": [
+      {
+        "function": "ivf_read_frame",
+        "impl_file": "ivfdec.c",
+        "decl_file": "ivfdec.h"
+      }
+    ],
+    "md5_utils.c": [
+      {
+        "function": "MD5Init",
+        "impl_file": "md5_utils.c",
+        "decl_file": "md5_utils.h"
+      }
+    ],
+    "tools_common.c": [
+      {
+        "function": "die",
+        "impl_file": "tools_common.c",
+        "decl_file": "tools_common.h"
+      },
+      {
+        "function": "fatal",
+        "impl_file": "tools_common.c",
+        "decl_file": "tools_common.h"
+      },
+      {
+        "function": "warn",
+        "impl_file": "tools_common.c",
+        "decl_file": "tools_common.h"
+      }
+    ],
+    "vpx/src/vpx_codec.c": [
+      {
+        "function": "vpx_codec_control_",
+        "impl_file": "vpx/src/vpx_codec.c",
+        "decl_file": "vpx/vpx_codec.h"
+      },
+      {
+        "function": "vpx_codec_destroy",
+        "impl_file": "vpx/src/vpx_codec.c",
+        "decl_file": "vpx/vpx_codec.h"
+      },
+      {
+        "function": "vpx_codec_error_detail",
+        "impl_file": "vpx/src/vpx_codec.c",
+        "decl_file": "vpx/vpx_codec.h"
+      }
+    ],
+    "vpx/src/vpx_decoder.c": [
+      {
+        "function": "vpx_codec_dec_init_ver",
+        "impl_file": "vpx/src/vpx_decoder.c",
+        "decl_file": "vpx/vpx_decoder.h"
+      },
+      {
+        "function": "vpx_codec_decode",
+        "impl_file": "vpx/src/vpx_decoder.c",
+        "decl_file": "vpx/vpx_decoder.h"
+      },
+      {
+        "function": "vpx_codec_get_frame",
+        "impl_file": "vpx/src/vpx_decoder.c",
+        "decl_file": "vpx/vpx_decoder.h"
+      },
+      {
+        "function": "vpx_codec_peek_stream_info",
+        "impl_file": "vpx/src/vpx_decoder.c",
+        "decl_file": "vpx/vpx_decoder.h"
+      }
+    ],
+    "vpx/src/vpx_image.c": [
+      {
+        "function": "vpx_img_alloc",
+        "impl_file": "vpx/src/vpx_image.c",
+        "decl_file": "vpx/vpx_image.h"
+      },
+      {
+        "function": "vpx_img_free",
+        "impl_file": "vpx/src/vpx_image.c",
+        "decl_file": "vpx/vpx_image.h"
+      },
+      {
+        "function": "vpx_img_set_rect",
+        "impl_file": "vpx/src/vpx_image.c",
+        "decl_file": "vpx/vpx_image.h"
+      }
+    ],
+    "vpx_mem/vpx_mem.c": [
+      {
+        "function": "vpx_free",
+        "impl_file": "vpx_mem/vpx_mem.c",
+        "decl_file": "vpx_mem/vpx_mem.h"
+      },
+      {
+        "function": "vpx_memalign",
+        "impl_file": "vpx_mem/vpx_mem.c",
+        "decl_file": "vpx_mem/vpx_mem.h"
+      }
+    ],
+    "y4menc.c": [
+      {
+        "function": "y4m_write_file_header",
+        "impl_file": "y4menc.c",
+        "decl_file": "y4menc.h"
+      },
+      {
+        "function": "y4m_write_frame_header",
+        "impl_file": "y4menc.c",
+        "decl_file": "y4menc.h"
+      }
+    ]
+  },
+  "unresolved": {
+    "args.c": [
+      "arg_init"
+    ],
+    "tools_common.c": [
+      "get_vpx_decoder_by_fourcc",
+      "get_vpx_decoder_by_index",
+      "get_vpx_decoder_by_name"
+    ],
+    "vpx/src/vpx_image.c": [
+      "img_alloc_helper"
+    ],
+    "vpx_mem/vpx_mem.c": [
+      "check_size_argument_overflow",
+      "get_actual_malloc_address",
+      "get_aligned_malloc_size",
+      "get_malloc_address_location",
+      "set_actual_malloc_address"
+    ],
+    "vpxdec.c": [
+      "dec_read_frame",
+      "file_is_raw",
+      "generate_filename",
+      "is_single_file",
+      "libyuv_scale",
+      "main",
+      "main_loop",
+      "open_outfile",
+      "raw_read_frame",
+      "show_help",
+      "show_progress",
+      "update_image_md5",
+      "vpx_codec_control_VP8D_GET_FRAME_CORRUPTED",
+      "vpx_codec_control_VP8_SET_POSTPROC",
+      "vpx_codec_control_VP9D_GET_DISPLAY_SIZE",
+      "vpx_codec_control_VP9D_SET_LOOP_FILTER_OPT",
+      "vpx_codec_control_VP9D_SET_ROW_MT",
+      "vpx_codec_control_VP9_DECODE_SVC_SPATIAL_LAYER",
+      "vpx_codec_control_VPXD_GET_LAST_QUANTIZER",
+      "vpx_usec_timer_elapsed",
+      "vpx_usec_timer_mark",
+      "write_image_file"
+    ]
+  }
+}
