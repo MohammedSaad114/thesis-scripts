@@ -3,6 +3,8 @@ Scripts used in the Bachelor's thesis to preprocess the data
 
 # Analysis Pipeline
 
+Preparing data for DRSpaces analysis
+
 ## Requirements
 The pipeline needs the following inputs:
 
