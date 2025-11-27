@@ -22,7 +22,9 @@ The pipeline needs the following inputs:
 
 - Run **resolve_static_local.py** with  
   `filtered_functions.json`, `implement_map.json`, and `<src_root>`  
-  → produces `declmap.json`
+  → produces `declmap.json` (including any remaining unresolved functions)
+
+- Manually resolve the remaining unresolved entries in `declmap.json` by inspecting the source code
 
 - Run **merge_dependencies.py** with  
   VaRA YAML, DV8 JSON, and `declmap.json`  
