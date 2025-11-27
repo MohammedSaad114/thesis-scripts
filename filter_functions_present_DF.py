@@ -67,7 +67,7 @@ def yaml_to_maps(yaml_path, json_path):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print(f"Usage: {sys.argv[0]} <input.yaml> <output.json>")
+        print(f"Usage: {sys.argv[0]} <input.yaml> <filtered_functions.json>")
         sys.exit(1)
 
     yaml_to_maps(sys.argv[1], sys.argv[2])

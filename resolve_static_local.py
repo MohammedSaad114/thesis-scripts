@@ -139,7 +139,7 @@ def annotate(vara_map, impl_lookup, src_root: Path):
 
 def main():
     if len(sys.argv) != 5:
-        print(f"Usage: {sys.argv[0]} <vara.json> <impl_map.json> <src_root> <out.json>")
+        print(f"Usage: {sys.argv[0]} <filtered_functions.json> <implement_map.json> <src_root> <declmap.json>")
         sys.exit(1)
 
     vara = load_json(sys.argv[1])

@@ -69,7 +69,7 @@ def extract_implement_map(input_json, output_json):
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print(f"Usage: {sys.argv[0]} <input_structural.json> <output_implement_map.json>")
+        print(f"Usage: {sys.argv[0]} <input_structural.json> <implement_map.json>")
         sys.exit(1)
 
     extract_implement_map(sys.argv[1], sys.argv[2])
