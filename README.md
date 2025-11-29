@@ -9,8 +9,8 @@ Preparing data for DRSpaces analysis
 The pipeline needs the following inputs:
 
 - **Project repository/source code**.
-- **DV8 structural JSON** – DV8's analysis on a repository produces a dependency file.
-- **VaRA data-flow YAML** – contains data-flow interactions.
+- **DV8 (tool) structural JSON** – DV8's analysis on a repository produces a dependency file.
+- **VaRA (tool) data-flow YAML** – contains data-flow interactions.
 
 ---
 
