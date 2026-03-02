@@ -1,16 +1,17 @@
-# thesis-scripts
-Scripts used in the Bachelor's thesis to preprocess the data
+# Thesis Pipeline Scripts
+Scripts used in the Bachelor's thesis to preprocess the data. 
 
 # Analysis Pipeline
 
-Preparing data for DRSpaces analysis
+This pipeline describes how we prepared the data for Design Rule Space analysis. We transformed the data-flow dependency information that we get from the tool VaRA to a convention accepted by the tool DV8. DV8 is the used for constructing and analyzing Design Rule Spaces.
 
 ## Requirements
-The pipeline needs the following inputs:
+* Python version used: Python 3.12.6
 
-- **Project repository/source code**.
-- **DV8 (tool) JSON file** – DV8's analysis on a repository produces a dependency file.
-- **VaRA (tool) YAML file** – contains data-flow interactions produced by VaRA analysis.
+* The pipeline needs the following inputs:
+  * **Project repository/source code**.
+  * **DV8 JSON file** – DV8's analysis on a repository produces a dependency file.
+  * **VaRA YAML file** – contains data-flow interactions produced by VaRA analysis.
 
 ---
 
