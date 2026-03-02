@@ -45,7 +45,7 @@ All remaining symbols are put into an cell called "unresolved".
 ```
 ---
 ### Step 4:
-* Manually resolve the remaining unresolved entries in `declmap.json` by locating those symbols in the data-flow Yaml file and inspecting the source code for the second dependency edge.
+* Manually resolve the remaining unresolved entries in `declmap.json` by locating those symbols in the data-flow Yaml file and inspecting the source code for the second dependency edge. The secondary edge can be added manually into `declmap.json` into existing cells (if the symbol had other occurences) or as a new cell. 
 
 ---
 ### Step 5:
