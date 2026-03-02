@@ -27,10 +27,13 @@ The pipeline needs the following inputs:
   → produces `declmap.json` (including any remaining unresolved functions)
 
 - Manually resolve the remaining unresolved entries in `declmap.json` by inspecting the source code
-
+  
 - Run **merge_dependencies.py** with  
   VaRA YAML, DV8 JSON, and `declmap.json`  
   → produces `combined_output.json` (final merged dependency graph)
-  
+
+- (optional) Run **filter_cochange.py** on `combined_output.json`
+  → filters cochange entries based a specified threshold
+
 - Feed **combined_output.json** into DV8’s file analysis mode  
   → performs new analysis that contains Data-flow
